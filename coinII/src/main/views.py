@@ -15,3 +15,6 @@ def timeline(request):
 
 def faq(request):
     return render(request,'main/FAQ.html', {})
+
+def about(request):
+    return render(request,'main/About.html', {})
