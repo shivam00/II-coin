@@ -18,3 +18,7 @@ def faq(request):
 
 def about(request):
     return render(request,'main/About.html', {})
+
+def economic(request):
+    return render(request,'main/economic.html', {})
+
