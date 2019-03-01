@@ -22,3 +22,5 @@ def about(request):
 def economic(request):
     return render(request,'main/economic.html', {})
 
+def IIpay(request):
+    return render(request,'main/IIpay.html', {})
